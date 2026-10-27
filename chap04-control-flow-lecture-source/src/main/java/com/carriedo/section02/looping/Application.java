@@ -14,7 +14,8 @@ public class Application {
 
         C_while c = new C_while();
         //c.testSimpleWhileStatement();
-        c.testWhileExample();
+        // c.testWhileExample();
+        c.testSimpleDoWhileStatement();
     }
 
 

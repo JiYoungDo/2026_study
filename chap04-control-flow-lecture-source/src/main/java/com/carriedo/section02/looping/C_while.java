@@ -35,4 +35,11 @@ public class C_while {
             System.out.println("입력받은 값 : " + input);
         }
     }
+
+    public void testSimpleDoWhileStatement(){
+        do{
+            System.out.println("조건식이 false 여도 최초 한번은 무조건 동작함.");
+        }while(false);
+    }
+
 }
