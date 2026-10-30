@@ -25,6 +25,17 @@ public class Application {
      * */
 
     public static void main(String[] args) {
+        SmartPhone smartPhone = new SmartPhone();
+
+        System.out.println(smartPhone instanceof SmartPhone);
+        System.out.println(smartPhone instanceof Product);
+
+        Product product = new SmartPhone(); //product 가 접근할 수 있는건 product에 있는것만쓸수있음.
+        product.abstMethod(); // 정적 바인딩으로 product를 바라보고, 실행중에 동적바인딩이 일어나서 smartphon의 메소드를 호출할 것이다.
+
+        /** 일반적인 메소드도 호출 가능하다. */
+        product.nonStaticMethod();
+        product.staticMethod();
 
     }
 }
