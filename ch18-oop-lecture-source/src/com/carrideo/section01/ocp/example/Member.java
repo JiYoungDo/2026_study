@@ -1,4 +1,4 @@
-package com.carrideo.section01;
+package com.carrideo.section01.ocp.example;
 
 /* 헬스장 회원 한명을 나타내는 클래스 */
 public class Member {

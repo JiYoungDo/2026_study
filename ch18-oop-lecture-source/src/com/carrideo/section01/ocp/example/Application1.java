@@ -1,4 +1,4 @@
-package com.carrideo.section01;
+package com.carrideo.section01.ocp.example;
 
 public class Application1 {
     /**
